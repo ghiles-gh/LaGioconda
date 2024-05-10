@@ -74,7 +74,7 @@ inp.addEventListener('blur', () => {
 var navigateButton = document.querySelectorAll('#navigateButton');
 navigateButton.forEach(function(elem) {
     elem.addEventListener('click', () => {
-        window.location.href = '../contact.html'
+        window.location.href = './contact.html'
     })
 
 
